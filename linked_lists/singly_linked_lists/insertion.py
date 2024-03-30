@@ -54,3 +54,12 @@ class SinglyLinkedList:
         current.next = new_node
         new_node.prev = current
 
+
+# Example usage:
+linked_list = SinglyLinkedList()
+
+# Insertion
+linked_list.insert_at_end(10)
+linked_list.insert_at_end(20)
+linked_list.insert_at_beginning(5)
+linked_list.insert_at_position(2, 15)
